@@ -39,7 +39,7 @@ Instead of install gradle on your machine you can use gradlew script that build 
 ### Running locally
 To start application locally use the command (use existing directory path for file-storage.path):
 ``` 
-java -Dfile-storage.path=C:\Temp -jar build\libs\file-storage-1.0.0.jar
+java -Dfile-storage.path=C:\Temp -jar build/libs/file-storage-1.0.0.jar
 ```
 
 ### Deploying on docker container
