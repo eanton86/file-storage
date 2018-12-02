@@ -1,0 +1,10 @@
+version: '3'
+services:
+  file-storage:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ${FILE_STORAGE_PATH}:/tmp/file-storage
+    restart: always
+
