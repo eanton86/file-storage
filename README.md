@@ -1,9 +1,9 @@
 # File Storage
 
 Dokerized Spirng Boot application providing RESTful API for storing files and images. 
-User uploads files, images or images referenced by URL. The application stores all uploaded resources into internal 
-storage (specific directory on server).
-When image stored into the storage, the thumbnail representation (100x100 px) of the image is stored along the image automatically.   
+User uploads files, images or images referenced by URL. The application stores all uploaded resources into an internal 
+storage (specific directory on a server).
+When image has been stored into the storage, a thumbnail representation (100x100 px) of the image is stored along the image automatically.   
 The storage directory should be specified as parameter for starting application.  
 The REST API consists of a single endpoint: 
 ```
